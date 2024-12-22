@@ -1,6 +1,6 @@
 # The Silent Audio Playback Service
 
-This service might be useful for devices that are buggy on Intel HD Audio such as Lenovo Yoga IRP8D. On these devices, the subwoofers will become dead after the first 1~2 audio playbacks. Playing a silent audio file might circumvent this issue, as the sound card may see it as playing sound indefinitely.
+This service might be useful for devices that are buggy on Intel HD Audio such as Lenovo Yoga IRP8D. On these devices, the subwoofers will become dead (before reboot) after several audio playback sessions have finished. Playing a silent audio file might circumvent this issue, as the sound card may see it as playing sound indefinitely.
 
 This method has been working up until now, but still needs more testing.
 
