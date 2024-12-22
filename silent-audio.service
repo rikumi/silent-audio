@@ -1,0 +1,10 @@
+[Unit]
+Description=Silent Audio to Prevent HDA Failure
+
+[Service]
+ExecStart=/home/rikumi/.local/share/silent-audio/silent-audio.sh
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=default.target
