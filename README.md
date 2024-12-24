@@ -19,5 +19,5 @@ This method has been working up until now, but still needs more testing.
 
 ## Bugs & Known Issues
 
-- Since this is a user-scoped service, it's recommended to log in only once and use the device for a long time. Logging out frequently, or keeping yourself logged out for some time, is currently not taken into consideration.
+- Since this is a user-scoped service (for `aplay` is unhappy with the root user), it's recommended to log in only once and use the device for a long time. Logging out frequently, or keeping yourself logged out for some time, is currently not taken into consideration.
 - You tell me
